@@ -21,7 +21,7 @@ int N=(xmax-xmin)/dx;
 
 
  for(int i=0;i<N;i++){
-   if(i>=0.75 && i<=1.25){
+   if(dx*i>=0.75 && dx*i<=1.25){
      u[i]=1;
 }
    else{
